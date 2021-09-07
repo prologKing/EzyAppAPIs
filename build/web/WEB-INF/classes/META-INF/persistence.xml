@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="EazyappUssdAPIsPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.allianz.entities.ClientUsersAccessTb</class>
+    <class>com.allianz.entities.BranchTb</class>
+    <class>com.allianz.entities.ProDuctAgentLevel</class>
+    <class>com.allianz.entities.BranchType</class>
+    <class>com.allianz.entities.DeparmentTb</class>
+    <class>com.allianz.entities.CompanyTb</class>
+    <class>com.allianz.entities.UsersRight</class>
+    <class>com.allianz.entities.UsersTb</class>
+    <class>com.allianz.entities.ProductAgentHierarchy</class>
+    <class>com.allianz.entities.ProductAgentsTb</class>
+    <class>com.allianz.entities.CustomerTb</class>
+    <class>com.allianz.entities.PolhDetl</class>
+    <class>com.allianz.entities.PayDetl</class>
+    <class>com.allianz.entities.ProductTb</class>
+    <class>com.allianz.entities.TmpUssdData</class>
+    <class>com.allianz.entities.UserLogs</class>
+    <class>com.allianz.entities.ProductConstantSetup</class>
+    <class>com.allianz.entities.ProductTbCheck</class>
+    <class>com.allianz.entities.ProductFreqMinAmt</class>
+    <class>com.allianz.entities.PolhDetailComplete</class>
+    <class>com.allianz.entities.CoverLives</class>
+    <class>com.allianz.entities.GenerateNumber</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/allzitc?zeroDateTimeBehavior=convertToNull&amp;serverTimezone=UTC"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="BoLaJi007"/>
+    </properties>
+  </persistence-unit>
+</persistence>
